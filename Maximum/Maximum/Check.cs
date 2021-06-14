@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Maximum
 {
-   public class Check
+    public class Check
     {
         public int FindIntMax(int firstNumber, int secondNumber, int thirdNumber)
         {
@@ -32,5 +32,7 @@ namespace Maximum
             else
                 return thirdNumber;
         }
+        
+        
     }
 }

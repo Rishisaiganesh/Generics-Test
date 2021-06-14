@@ -47,6 +47,48 @@ namespace maximum.Test
             ///Assert
             Assert.AreEqual(expected, result);
         }
+        [Test]
+        public void As_Given_FloatfirsttNumber_Return_sameNumber()
+        {
+            Check maximum = new Check();
+            ///Arrange
+            float firstNumber = 30.2f;
+            float secondNumber = 20.2f;
+            float thirdNumber = 10.2f;
+            float expected = 30.2f;
+            ///Act
+            float result = maximum.FindFloatMax(firstNumber, secondNumber, thirdNumber);
+            ///Assert
+            Assert.AreEqual(expected, result);
+        }
+        [Test]
+        public void As_Given_FloatsecondNumber_Return_sameNumber()
+        {
+             Check maximum = new Check();
+            ///Arrange
+            float firstNumber = 20.2f;
+            float secondNumber = 30.2f;
+            float thirdNumber = 10.2f;
+            float expected = 30.2f;
+            ///Act
+            float result = maximum.FindFloatMax(firstNumber, secondNumber, thirdNumber);
+            ///Assert
+            Assert.AreEqual(expected, result);
+        }
+        [Test]
+        public void As_Given_FloatthirdNumber_Return_sameNumber()
+        {
+            Check maximum = new Check();
+            ///Arrange
+            float firstNumber = 20.2f;
+            float secondNumber = 10.2f;
+            float thirdNumber = 30.2f;
+            float expected = 30.2f;
+            ///Act
+            float result = maximum.FindFloatMax(firstNumber, secondNumber, thirdNumber);
+            ///Assert
+            Assert.AreEqual(expected, result);
+        }
 
     }
 }
