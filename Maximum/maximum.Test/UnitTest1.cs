@@ -6,7 +6,7 @@ namespace maximum.Test
     public class Tests
     {
         [Test]
-        public void Test1()
+        public void FirstNumber()
         {
             Check max = new Check();
             ///Arrange
@@ -20,7 +20,7 @@ namespace maximum.Test
             Assert.AreEqual(expected, result);
         }
         [Test]
-        public void As_Given_secondNumber_Return_samenumber()
+        public void SecondNumber()
         {
             Check maximum = new Check();
             ///Arrange
@@ -34,7 +34,7 @@ namespace maximum.Test
             Assert.AreEqual(expected, result);
         }
         [Test]
-        public void As_Given_thirdNumber_Return_samenumber()
+        public void ThirdNumber()
         {
             Check maximum = new Check();
             ///Arrande
